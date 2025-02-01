@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Script Masters Studios</title>
+
+    <!-- Estilos CSS -->
+    <style>
+        /* Estilo global para el cuerpo */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+            min-height: 100vh; /* Asegura que el cuerpo siempre ocupe al menos el 100% del alto */
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Estilo para el encabezado */
+        header {
+            position: relative;
+            width: 100%;
+            height: 769px; /* Altura ajustada del encabezado */
+            background-image: url('Banner.jpg'); /* Reemplaza 'PERFIL 5.jpg' por la ruta correcta */
+            background-size: contain;  /* La imagen se ajustará sin recortes */
+            background-position: center center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que la imagen se repita */
+            background-color: #000; /* Fondo negro para el caso de que haya espacio vacío */
+        }
+
+        /* Si quieres un texto encima de la imagen */
+        header h1 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: #D4AF37; /* Dorado */
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Estilo para los enlaces */
+        a {
+            color: #D4AF37; /* Dorado */
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #fff; /* Cambia a blanco al pasar el mouse */
+            text-decoration: underline;
+        }
+
+        /* Estilo para el contenedor principal */
+        .container {
+            flex-grow: 1; /* Hace que el contenedor ocupe el espacio disponible */
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #333; /* Fondo gris oscuro */
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Estilo para los párrafos */
+        p {
+            line-height: 1.6;
+            font-size: 1.2em;
+        }
+
+        /* Estilo para la lista de enlaces en 'Contáctame' */
+        .contact-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .contact-links li {
+            margin: 10px 0;
+        }
+
+        .contact-links a {
+            font-size: 1.2em;
+            color: #D4AF37; /* Dorado */
+        }
+
+        .contact-links a:hover {
+            color: #fff; /* Cambia a blanco al pasar el mouse */
+        }
+        /*Estilo ul*/
+        ul {
+            color: #D4AF37;/*Dorado*/
+        }
+
+        /* Estilo de los títulos */
+        h2, h3, h4 {
+            color: #D4AF37; /* Dorado */
+        }
+        h1 {
+            color: #fff; /* Blanco */
+        }
+
+        /* Pie de página personalizado */
+        footer {
+            background-color: #000; /* Fondo negro */
+            color: #D4AF37; /* Texto dorado */
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #D4AF37; /* Enlaces dorados */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #FFD700; /* Color dorado más brillante al pasar el ratón sobre los enlaces */
+        }
+
+        /* Ajustes para pantallas pequeñas */
+        @media (max-width: 768px) {
+            header {
+                height: 200px; /* Ajustamos la altura en pantallas más pequeñas */
+            }
+        }
+
+        /* Estilo para la imagen */
+        .img-civil {
+            width: 20%; /* Asegura que la imagen ocupe el 100% del ancho */
+            margin-top: 20px; /* Espacio superior para separar la imagen de la lista */
+            border-radius: 8px; /* Opcional, para bordes redondeados */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Encabezado de la página con imagen -->
+    <header>
+    </header>
+
+    <!-- Contenedor de contenido -->
+    <div class="container">
+        <h2>Mision</h2>
+        <p>Empoderar a las organizaciones mediante el análisis de datos preciso y accesible, para facilitar la toma de decisiones informadas y optimizar el rendimiento empresarial, transformando la información en valor estratégico.</p>
+        <h2>Vision</h2>
+        <p>Ser el referente líder en soluciones de análisis de datos, proporcionando descubrimientos valiosos y estratégicos que impulsen el crecimiento sostenible y la competitividad de nuestros clientes, contribuyendo a un mundo más conectado y basado en la inteligencia de datos.</p>
+        <h1>Servicios</h1>
+        <div style="display: flex; align-items: flex-start;">
+            <div>
+                <p></p>
+                <ul>
+                    <li>1.-Análisis descriptivo de datos</li>
+                    <li>2.-Análisis predictivo</li>
+                    <li>3.-Visualización de datos</li>
+                    <li>4.-Análisis de cohortes</li>
+                    <li>5.-Análisis de sentimiento</li>
+                    <li>6.-Análisis de mercado</li>
+                    <li>7.-Limpieza y preparación de datos</li>
+                    <li>8.-Automatización de reportes</li>
+                    <li>9.-Consultoría en Big Data</li>
+                </ul>
+            </div>
+            <img src="Logo.png" alt="Descripción de la imagen" style="margin-left: 20px; max-width: 400px;">
+        </div> 
+        <h2>Ingenieros</h2>
+        <li><strong>Martinez Villena Daniel</strong></li>
+        <p></p>
+        <li><strong>Analista de Datos</strong>:Experiencia en Alteryx y AWS, además de conocimientos en marketing y servicio al cliente. Su enfoque combina tecnología y estrategia para optimizar procesos y aprovechar el potencial de los datos.</li>       
+            <div style="display: flex; align-items: flex-start;">
+            <!-- Imagen debajo de la lista Civil -->
+            <img src="Villena.jpg" alt="Imagen de Derecho Civil" class="img-civil" style="margin-right: 30px;">
+            <ul style="margin-top: 40px;">
+                <li>Analista de datos con experiencia en Alteryx y AWS.</li>
+                <li>Conocimientos en marketing y servicio al cliente.</li>
+                <li>Enfoque en optimización de procesos y datos.</li>
+                <li>Formación en sistemas computacionales, titulación en curso.</li>
+                <li>Interés en ciberseguridad y análisis estratégico.</li>
+                </ul>
+                </div>
+            <p></p>
+            <li><strong>Avila Luna Howard Jair</strong></li>
+        <p></p>
+        <li><strong>Ingeniero de Datos</strong>:Diseñar, construir y mantener sistemas que faciliten la recolección, almacenamiento y procesamiento eficiente de grandes volúmenes de datos, garantizando su calidad y accesibilidad para su posterior análisis.</li>       
+           <div style="display: flex; align-items: flex-start;">
+            <!-- Imagen debajo de la lista Familiar -->
+            <img src="Yo.jpg" alt="Imagen de Derecho Civil" class="img-civil" style="margin-right: 30px;">
+            <ul style="margin-top: 40px;">
+            <li>Diseñar y desarrollar infraestructuras.</li>
+            <li>Integrar y transformar datos.</li>
+            <li>Bases de datos y procesos de ETL.</li>
+            <li>Calidad, Seguridad y Consistencia.</li>
+            <li>Uso en modelos analíticos.</li>
+            </ul>
+            </div>
+            <p></p>
+            <li><strong>Perez Arredondo Axel Danyael</strong></li>
+        <p></p>
+        <li><strong>Analista BI</strong>:Recopilar, analizar e interpretar datos para proporcionar información estratégica que facilite la toma de decisiones informadas y mejore el rendimiento de la empresa.</li>       
+           <div style="display: flex; align-items: flex-start;">
+            <!-- Imagen debajo de la lista Familiar -->
+            <img src="Danya.jpg" alt="Imagen de Derecho Civil" class="img-civil" style="margin-right: 30px;">
+            <ul style="margin-top: 40px;">
+            <li>Recopilación de datos.</li>
+            <li>Limpieza y Transformación de Datos.</li>
+            <li>Análisis de Datos.</li>
+            <li>Visualización y Reportes.</li>
+            <li>Optimización y Estrategia Empresarial.</li>
+            </ul>
+            </div>
+            <p></p>
+        <h2>Contáctanos</h2>
+        <p>Puedes contactarnos via WhatsApp:</p>
+<div style="display: flex; align-items: center;">
+    <img src="Whatpng.png" alt="Imagen de WhatsApp" class="img-civil" style="width: 70px; height: auto; margin-right: 20px; margin-top: 30px;">
+    <ul style="list-style-type: none; padding-left: 0;">
+        <li>(Ing. Danyael) - 5543097407</li>
+        <li>(Ing. Villena) - 5511096297</li>
+        <li>(Ing. Howard) - 5578006879</li>
+    </ul>
+</div>
+    <!-- Pie de página con estilo actualizado -->
+        <footer>
+        <p>&copy;Script Masters Studios.</p>
+        <p>Todos los derechos reservados.</p>
+        </footer>
+</body>
+
+</html>
